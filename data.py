@@ -106,7 +106,6 @@ class Rectangle:
     def __repr__(self) -> str:
         return 'Rectangle({}, {})'.format(self.top_left, self.bottom_right)
 
-
     # Compare the Rectangle object with another value to determine equality.
     # input: Rectangle against which to compare
     # input: Another value to compare to the Rectangle
